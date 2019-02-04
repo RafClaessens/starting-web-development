@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+body{
+    background-color: rgb(207, 195, 180);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* blok1----------------------------------- */
+.kerel{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    padding: 0px 10px;
+    box-shadow:0px 1px 20px #490a49;
+    margin-top: 50px;
+    line-height: 1.7em;
+}
+h1 {
+    padding: 15px 0px;
+    color: crimson;
+}
+.hatwee{
+    padding: 15px 0px;
+}
+.pinky{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: red;
+    font-size: 16px;
+}
+/* -------------------blok2 */
+.cont2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: white;
+    width: 550px;
+    height: 80px;
+    padding-left: 20px;
+    color: darkgrey;
+}
+.cont22{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+    width: 550px;
+    height: 70px;
+    color: darkgrey;
+
+    padding-right: 20px;
+    font-size: 20px;
+}
+a:active{
+    color: darkgrey;
+
+}
+a:link{
+    color: darkgrey;
+}
+a:visited{
+    color: darkgrey;
+
+}
+a:hover{
+    color: crimson;
+}
+
+.cont22 a{
+    text-decoration: none;
+}
+/* blok3-------------------------- */
+ span{
+     background-color: grey;
+     margin-right: 5px;
+ }
+.oke{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+ .cont3{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     width: 550px;
+     margin-top: 10px;
+     background-color: white;
+     padding: 10px;
+     font-size: 18px;
+     line-height: 1.7em;
+     box-shadow:0px 1px 20px #490a49;
+     margin-bottom: 50px;
+
+ }
+.space{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.hulot{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.alien{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.blokje1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: grey;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.blokje2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: grey;
+    padding-top: 20px;
+}
+.blokje3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: grey;
+    padding-top: 20px;
+}
+.foto{
+    width: 200px;
+}
